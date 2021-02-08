@@ -1,5 +1,6 @@
 package study;
 
+import constants.FruitsConstants;
 //②Fruits.javaをインポートしなさい。
 import fruits.Fruits;
 
@@ -20,7 +21,7 @@ public class Study {
          */
     	Fruits food = new Fruits();
 
-    	food.printFruits("レモン", 20);
+    	food.printFruits(FruitsConstants.FRUITS_LEMON_04, FruitsConstants.FRUITS_COUNT_20);
 
     }
 }
