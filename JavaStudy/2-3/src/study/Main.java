@@ -1,5 +1,4 @@
 package study;
-
 /**
  *
  * 本課題では、継承・オーバーロードメソッドの基本的な使い方を学んでいきましょう。
@@ -13,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
 
         // ③ Taskクラスのインスタンスを生成し、「doTask()」メソッドを呼び出しなさい。
-    	Task task = new Task(11,19,30);
+    	Task task = new Task();
 
      	task.doTask();
     }
