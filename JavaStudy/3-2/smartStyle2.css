@@ -1,0 +1,47 @@
+@media screen and (min-width: 767px) {
+
+    .wrapper {
+        width: 300px;
+    } 
+    .left {
+        width: 100px; 
+    }
+    .top {
+        width: 125px;
+    }
+    .center {
+        width: 125px;
+    }
+    .down {
+        width: 200px;
+    }
+    .right {
+        width: 75px;
+    }   
+}
+
+@media screen and (min-width: 479px) {
+
+    .wrapper {
+        width: 150px;
+    }
+    /* .left {
+        float: none;
+    } */
+    .top {
+        float: none;
+    }
+    .center {
+        float: none;
+    }
+    .right {
+        float: none;
+    }
+    .down {
+        float: none;
+    }
+     
+}
+
+
+
