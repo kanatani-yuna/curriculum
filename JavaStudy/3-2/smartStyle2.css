@@ -28,6 +28,7 @@
     .left {
         float: none;
         width: 150px;
+        height: 100px;
     }
     .float {
         float: none;
@@ -36,6 +37,7 @@
      .right {
         float: none;
         width: 150px;
+        height: 100px;
     }
     .top {
         width: 150px;
@@ -45,6 +47,5 @@
     }
     .down {
         width: 150px;
-    }
-        
+    }  
 }
