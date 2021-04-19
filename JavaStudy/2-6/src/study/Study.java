@@ -33,19 +33,19 @@ public class Study {
         // [Calendar.Monthは実値0～11で定義がされており、実際の月の値は「-1」の値を保持しているため
         //「+1」することで表示される値を調製しているので、getメソッドで対応すると「月の値+1」となり
         // 13月、14月と表示されてしまい、年の加算減算はしてくれないから。]
-        
+
         System.out.println(calendar.get(Calendar.YEAR));
         System.out.println(calendar.get(Calendar.MONTH) + 1);
         System.out.println(calendar.get(Calendar.DATE));
-        
+
         // 問③ 上記の「calendar」を使用し、本日から1年2ヶ月15日先の日付を表示しなさい。
         // - この課題に関しては課題実施日によって結果が異なりますので、Wiki課題の画像とは結果が異なります。
         // - また、うるう年の場合は設定内容が正しくとも日付がズレて表示される可能性があります。
-        
+
        calendar.add(Calendar.YEAR, 1);
        calendar.add(Calendar.MONTH, 2);
        calendar.add(Calendar.DATE, 15);
-        
+
        System.out.println(calendar.get(Calendar.YEAR));
        System.out.println(calendar.get(Calendar.MONTH) + 1);
        System.out.println(calendar.get(Calendar.DATE));

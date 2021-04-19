@@ -29,7 +29,7 @@ public class Study {
     	shohinList.add(SHOP_SHOHIN_01);
     	shohinList.add(SHOP_SHOHIN_02);
     	shohinList.add(SHOP_SHOHIN_03);
-    	
+
 
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
@@ -46,14 +46,10 @@ public class Study {
 
         // ③ カリキュラムを参考に拡張for文を使って、課題の画像と同じ表示になるよう記述してください。
         // 「shohinList」と「shopMap」が保持する値を上手く利用しましょう。
-               
+
         for (Map.Entry<String, Integer> entry : shopMap.entrySet()) {
         	System.out.println(entry.getKey() + "=" + entry.getValue() + "円になります！");
         }
-        
-
-
-
 
     }
 }
